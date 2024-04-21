@@ -1,0 +1,506 @@
+.cards{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 250px;
+    overflow-y: scroll;
+    overflow-X: hidden;
+}
+card{
+    height: 350px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    position: relative;
+    -webkit-box-shadow: -7px 9px 8px 1px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -7px 9px 8px 1px rgba(34, 60, 80, 0.2);
+    box-shadow: -7px 9px 8px 1px rgba(34, 60, 80, 0.2);
+
+}
+.img_v_v{
+    height: 220px;
+    border-radius: 30px;
+    transition: 1.5s;
+    width: 290px;
+}
+.card_v_v{
+    margin: 10px;
+    position: relative;
+}
+.intro{
+    border-radius: 10px 10px 0px 0px;
+    height: 60px;
+    width: 290px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    background: #a6aaadad !important;
+    color: white;
+    transition: 1.5s;
+    overflow: hidden;
+    margin-top: -224px;
+    padding-left: 20px;
+}
+.intro h1{
+    margin: 10px;
+    font-size: 22px;
+}
+.hi {
+    width: 290px;
+    text-align: center;
+    position: absolute;
+    margin-top: -220px;
+    z-index: 2;
+    visibility: visible;
+    opacity: 1;
+    transition: 1.5s;
+}
+.hi h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    margin: 10px;
+    
+}
+.intro p{
+    text-align: left;
+    font-size: 12px;
+    margin: 5px;
+    visibility: hidden;
+    opacity: 0;
+    width: 260px;
+    transition: 1.5s;
+
+}
+.card:hover{
+    cursor: pointer;
+}
+.card:hover .intro{
+    height: 220px;
+    width: 290px;
+    overflow-y:scroll;
+    background:rgba(0,0,0,.8);
+    z-index: 1;
+    border-radius: 10px 10px 10px 10px;
+    /* rgb(27 127 204 / 72%); */
+}
+.card:hover .hi{
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+}
+.card:hover .intro p{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s;
+}
+/*.card:hover img{
+    transform: scale(1.1) rotate(-3deg);
+}*/
+
+
+.cont_div{
+    -webkit-box-shadow: -7px 9px 8px 1px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -7px 9px 8px 1px rgba(34, 60, 80, 0.2);
+    box-shadow: -7px 9px 8px 1px rgba(34, 60, 80, 0.2);
+    height: 200px;
+    background-color:aliceblue;
+    border-radius: 10px;
+    overflow: hidden;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.cont_div h2{
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.obed{
+    -webkit-box-shadow: -7px 9px 8px 1px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -7px 9px 8px 1px rgba(34, 60, 80, 0.2);
+    box-shadow: -7px 9px 8px 1px rgba(34, 60, 80, 0.2);
+    padding: 20px;
+    text-align: center;
+    background-color:cornsilk;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: -40px;
+    border: 1px solid whitesmoke;
+    
+}
+.obed p{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+.crug_dis{
+    -webkit-box-shadow: -7px 9px 8px 1px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -7px 9px 8px 1px rgba(34, 60, 80, 0.2);
+    box-shadow: -7px 9px 8px 1px rgba(34, 60, 80, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color:cornsilk;
+    position: absolute;
+    border: 1px solid whitesmoke;
+    margin-top: -150px;
+    margin-left: 500px;
+    margin-right: 20px;
+}
+.crug_dis p{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+.priem p{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+.cont_div h2{
+    font-size: 24px;
+    margin: 0;
+    padding: 15;
+}
+.ufa{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    width: 200px;
+}
+.news{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 350px;
+    overflow-y:scroll;
+
+}
+.news1_title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.news1_title h1{
+    font-size: 28px;
+}
+.news_item img{
+    margin: 10px;
+    height: 200px;
+    width: 250px;
+    -webkit-box-shadow: -7px 9px 8px 1px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -7px 9px 8px 1px rgba(34, 60, 80, 0.2);
+    box-shadow: -7px 9px 8px 1px rgba(34, 60, 80, 0.2);
+    transition: 0.5s;
+    /* opacity: 0.7; */
+}
+/* .news_item img:hover{
+    height: 250px;
+    width: 280px;
+    opacity: 1;
+    
+} */
+
+.news::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;             /* ширина scrollbar */
+}
+.news::-webkit-scrollbar-track {
+    background: gray;        /* цвет дорожки */
+    border-radius: 10px;
+}
+.news::-webkit-scrollbar-thumb {
+    background-color: rgb(99, 98, 98);    /* цвет плашки */
+    border-radius: 10px;       /* закругления плашки */
+    height: 100px;
+    border: 3px solid rgb(99, 98, 98);  /* padding вокруг плашки */
+}
+.cards::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;             /* ширина scrollbar */
+}
+.cards::-webkit-scrollbar-track {
+    background: gray;          /* цвет дорожки */
+    border-radius: 10px;
+}
+.cards::-webkit-scrollbar-thumb {
+    background-color: rgb(99, 98, 98);    /* цвет плашки */
+    border-radius: 10px;       /* закругления плашки */
+    height: 100px;
+    border: 3px solid rgb(99, 98, 98);  /* padding вокруг плашки */
+}
+.burg img{
+    margin: 30px 0px;
+    height: 250px;
+    -webkit-box-shadow: -7px 9px 8px 1px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -7px 9px 8px 1px rgba(34, 60, 80, 0.2);
+    box-shadow: -7px 9px 8px 1px rgba(34, 60, 80, 0.2);
+}
+.pop li a{
+    padding: 10px;
+}
+.pop {
+    justify-content: center;
+}
+.pop li {
+    border-right: 1px solid white;
+    margin-right: 15px;
+    transition: 0.5s;
+}
+.pop li:hover {
+    border-right: 1px solid red;
+    margin-left: 15px;
+}
+.info_base{
+    margin-top: 30px;
+}
+.info_cont{
+    margin-top: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.info_base{
+    text-align: center;
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 5px;
+}
+.content_info{
+    width: 100vh;
+}
+.content_info h1{
+    font-size: 24px;
+    text-transform: uppercase;
+    max-width: 820px;
+}
+.content_info p{
+    border: 1px solid white;
+    width: 320;
+    text-align:justify;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+}
+.content_bloc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mam1{
+    border-right: 2px solid whitesmoke;
+    border-left: 2px solid whitesmoke;
+    transition: 1s;
+}
+.mam1:hover{
+    border-right: 2px solid red;
+    border-left: 2px solid red;
+}
+.mam{
+    font-size: 14px;
+}
+.new_ba{
+    font-size: 20px;
+}
+.kek{
+    display: none;
+}
+.kek li{
+    border-right: 2px solid whitesmoke;
+    border-left: 2px solid whitesmoke;
+    transition: 1s;
+}
+.kek li:hover{
+    border-right: 2px solid red;
+    border-left: 2px solid red;
+    transition: 1s;
+}
+
+.nums{
+    font-size: 45px;
+}
+
+/* .calc::after {
+    font: 800 40px system-ui;
+    content: counter(count);
+    animation: counter 5s linear;
+    counter-reset: count 0;
+}
+
+@keyframes counter {
+    0% {
+        counter-increment: count 0;
+    }
+    10% {
+        counter-increment: count 1;
+    }
+    20% {
+        counter-increment: count 2;
+    }
+    30% {
+        counter-increment: count 3;
+    }
+    40% {
+        counter-increment: count 4;
+    }
+    50% {
+        counter-increment: count 5;
+    }
+    60% {
+        counter-increment: count 6;
+    }
+    70% {
+        counter-increment: count 7;
+    }
+    80% {
+        counter-increment: count 8;
+    }
+    90% {
+        counter-increment: count 9;
+    }
+    100% {
+        counter-increment: count 10;
+    }
+} */
+@media (max-width:943px) {
+    .content_bloc{
+        flex-wrap: wrap;
+    }
+    card{
+        height: 150px;
+    }
+    .img_v_v{
+        height: 150px;
+        max-width: 150px;
+    }
+    .intro{
+        height: 60px;
+        width: 150px;
+        margin-top: -154.5px
+    }
+    .intro h1{
+        font-size: 24px;
+    }
+    .intro p{
+        font-size: 14px;
+        width: 150px;
+        padding-right: 10px;
+    }
+    .card:hover .intro{
+        height: 150px;
+        width: 150px;
+        background: black;
+    }
+    .crug_dis p{
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+    }
+    .crug_dis{
+        margin-left: 470px;
+    }
+    .hi{
+        margin-left: -10px;
+        margin-top: -150px;
+    }
+    .hi h1{
+        font-size: 18px;
+        width: 150px;
+    }
+}
+@media (max-width:711px) {
+    .cards{
+        display: grid;
+        justify-content: center;
+    }
+    card{
+        height: 200px;
+    }
+    .img_v_v{
+        height: 200px;
+        max-width: 200px;
+    }
+    .intro{
+        height: 60px;
+        width: 200px;
+        bottom: auto;
+        margin-top: -204.5px;
+    }
+    .intro h1{
+        margin: 10px;
+        font-size: 24px;
+    }
+    .intro p{
+        font-size: 14px;
+        bottom: 1px;
+        width: 250px;
+        
+    }
+    .card:hover .intro{
+        height: 220px;
+        width: 290px;
+        bottom: auto;
+        padding-right: 10px;
+        margin-left: -50px;
+        margin-top: -220px;
+        padding-bottom: 10px;
+    }
+    .crug_dis p{
+        margin: 0;
+        padding: 0;
+    }
+    .crug_dis{
+        margin-left: 350px;
+    }
+    .cont_div {
+        width: 400px;
+    }
+    .hi{
+        margin-left: -10px;
+        margin-top: -200px;
+    }
+    .hi h1{
+        font-size: 24px;
+        width: 200px;
+    }
+    
+}
+@media (max-width:598px) {
+    .pop{
+        display: none;
+    }
+    .kek{
+        display: block;
+    }
+}
+@media (max-width:578px) {
+    .crug_dis{
+        margin-left: 130px;
+        margin-right: 20px;
+        margin-top: 15px;
+    }
+    .burg img{
+        height: 200px;
+    }
+}
+@media (max-width:500px) {
+    .cont_div{
+        width: 310px;
+    }
+    .cont_div h2{
+        font-size: 18px;
+        padding-left: 20px;
+    }
+    .cards{
+        display: grid;
+        justify-content: center;
+    }
+    .obed{
+        margin-top: -70px;
+    }
+}
+@media (max-width:418px) {
+    .burg img{
+        height: 180px;
+    }
+}
